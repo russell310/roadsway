@@ -168,35 +168,54 @@ background: url('../images/hero-bg.png') no-repeat center center/cover;
       color: yellow;
   }
 
+  .step-section{
+    background: #121212;
+    background: url('../images/steps-bg.png') no-repeat center center/cover;
+    overflow: hidden;
+    padding: 30px 0;
+  }
 .step-section h1 {
     font-size: 80px !important;
     font-weight: 300 !important;
     margin-bottom: 20px;
 }
   .step-box {
-      background-color: #333;
+      background-color: #000;
       color: white;
       padding: 20px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+    justify-content: space-between;
+      /* align-items: space-btween; */
+      text-align: start;
       border-radius: 10px;
       margin-top: 20px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
 .step-box h2 {
-      /* background-color: #000; */
+    border: 1px solid #FFCD00;
       padding: 5px 10px;
-      display: inline-block;
+      display:  inline-block !important;
+      width: fit-content;
       border-radius: 5px;
       margin-bottom: 10px;
+      font-size: 14px;
 }
+.step-box p {
+    font-size: 16px;
+    font-weight: 400;
 
+}
   /* .step-box-active { */
       /* border: 2px solid #00f; */
   /* } */
 
   .step-description {
-      font-weight: bold;
-      color: yellow;
+     font-size: 22px;
+     font-weight: 300;
+      /* color: yellow; */
   }
 
   .text-highlight {
@@ -211,20 +230,29 @@ background: url('../images/hero-bg.png') no-repeat center center/cover;
 
   .text-description {
       color: #bbb;
-      margin-bottom: 2rem;
+      margin: 0 auto 2rem auto;
+      
   }
+.case-study-section .text-description{
+    max-width: 800px;
+    
+}
 
   .case-study-box {
-      background-color: #222;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-      text-align: left;
+    background: linear-gradient(308.76deg, rgba(31, 31, 31, 0.2) 35.7%, rgba(133, 133, 133, 0.2) 115.5%);
+    border: 0.4px solid #606060;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: #fff;
   }
 
   .case-study-box img {
       width: 100%;
-      height: auto;
+      height: 350px;
+    border-radius: 10px;
+    padding: 20px;
   }
 
   .case-study-content {
