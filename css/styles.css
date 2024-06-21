@@ -224,19 +224,17 @@ background: url('../images/hero-bg.png') no-repeat center center/cover;
 
   .text-title {
       color: white;
-      font-size: 2.5em;
-      font-weight: bold;
+      font-size: 48px;
+      font-weight: 300;
   }
 
-  .text-description {
+  .title-description {
       color: #bbb;
       margin: 0 auto 2rem auto;
+        max-width: 800px;
       
   }
-.case-study-section .text-description{
-    max-width: 800px;
-    
-}
+
 
   .case-study-box {
     background: linear-gradient(308.76deg, rgba(31, 31, 31, 0.2) 35.7%, rgba(133, 133, 133, 0.2) 115.5%);
@@ -280,7 +278,7 @@ background: url('../images/hero-bg.png') no-repeat center center/cover;
   }
 
   .project-box {
-      background-color: #222;
+      /* background-color: #222; */
       border-radius: 10px;
       overflow: hidden;
       margin: 10px 0;
