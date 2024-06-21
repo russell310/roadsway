@@ -11,29 +11,7 @@
       integrity="sha384-xxxxxxx"
       crossorigin="anonymous"
     />
-    <style>
-      .navbar {
-        padding: 1rem;
-      }
-
-      .logo {
-        height: 40px;
-      }
-
-      .apply-btn {
-        background-color: #ffc107;
-        border-color: #ffc107;
-        color: #333;
-        font-weight: bold;
-        padding: 0.5rem 1rem;
-        width: 200px;
-      }
-      .nav-center {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
     <html lang="en">
@@ -48,10 +26,10 @@
         <link rel="stylesheet" href="styles.css" />
       </head>
       <body>
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark ">
           <div class="container">
             <a class="navbar-brand" href="#">
-              <img src="/images/logo.png" alt="Logo" class="logo" />
+              <img src="images/logo.png" alt="Logo" class="logo" />
             </a>
             <button
               class="navbar-toggler"
@@ -79,12 +57,388 @@
                   <a class="nav-link" href="#">Testimonials</a>
                 </li>
               </ul>
-              <button href="#" class="btn btn-primary apply-btn">    Apply for Funding</button>
+              <button class="btn btn-lg btn-block" type="button"> Apply for Funding</button>
             
               </button>
             </div>
           </div>
         </nav>
+     <div class="hero-wrapper">
+<div class="hero-section">
+  <h1>Fund Your <br /><span>Construction</span> Projects</h1>
+  <p>Make an easy funding request and accelerate your project's completion</p>
+  <div class="form-row">
+    <div class="col-md-3 mb-3">
+      <select class="form-control bg-transparent" id="project">
+        <option selected>Your Project</option>
+        <!-- Add more options as needed -->
+      </select>
+    </div>
+    <div class="col-md-3 mb-3">
+      <input type="number" class="form-control bg-transparent" id="amountNeeded" placeholder="Amount Needed">
+    </div>
+    <div class="col-md-3 mb-3">
+      <select class="form-control bg-transparent" id="loanTerm">
+        <option selected>Loan Term</option>
+        <!-- Add more options as needed -->
+      </select>
+    </div>
+    <div class="col-md-3 mb-3">
+      <button class="btn  btn-block" type="button">Continue</button>
+    </div>
+  </div>
+
+  <div class="ratings">
+      <p>Excellent</p>
+    <div class="stars">
+      <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+    </div>
+    <div>
+    
+      <p>based on 430 reviews</p>
+    </div>
+  </div>
+</div>
+<div class="logos-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <img src="images/logo.png" alt="Micro Focus">
+      </div>
+      <div class="col-auto">
+        <img src="images/logo.png" alt="Inventec">
+      </div>
+      <div class="col-auto">
+        <img src="images/logo.png" alt="Becker">
+      </div>
+      <div class="col-auto">
+        <img src="images/logo.png" alt="Beefeater">
+      </div>
+      <div class="col-auto">
+        <img src="images/logo.png" alt="Vestas">
+      </div>
+      <!-- <div class="col-auto">
+        <img src="images/logo.png" alt="Gaumont">
+      </div>
+      <div class="col-auto">
+        <img src="images/logo.png" alt="Pergo">
+      </div> -->
+    </div>
+  </div>
+</div>
+  </div>
+<!-- Info Section -->
+<div class="info-section">
+  <div class="container">
+    <h2>Borrow More Simply For Your Construction Site</h2>
+    <p>As a dependable public sector service partner, we conduct our projects in a professional, discrete and flexible
+      manner. Find examples of our Public Sector Building Projects here.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="path-to-icon1" alt="Speed Icon">
+            <h5>Unrivalled Speed</h5>
+            <p>Our technology at the service of rapid credit: immediate final response and provision of express funds.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="path-to-icon2" alt="Team Icon">
+            <h5>Our Team at your side</h5>
+            <p>You have a question? We have the answer! Our Customer service is here to help you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="path-to-icon3" alt="Customer Icon">
+            <h5>Customer won over</h5>
+            <p>Our customers love us: their satisfaction reaches an average rating of 4.8/5!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-center my-5">
+  <h1 class="text-white">Steps to <span class="highlight">Apply</span></h1>
+  <p class="text-white">Make an easy funding request and accelerate your projects completion</p>
+  <button class="btn btn-warning btn-lg my-4">Apply for Funding &rarr;</button>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="step-box">
+        <h2>Step 1</h2>
+        <p class="step-description">Apply for Loan</p>
+        <p>Provide details about your Company so one of our dedicated experts can review your application.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="step-box step-box-active">
+        <h2>Step 2</h2>
+        <p class="step-description">We will contact you</p>
+        <p>If your startup is selected, we will invite you to discuss a one-on-one interview to discuss your specific
+          needs.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="step-box">
+        <h2>Step 3</h2>
+        <p class="step-description">Enjoy all the benefits</p>
+        <p>If your startup is selected, we will invite you to discuss a one-on-one interview to discuss your specific
+          needs.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  <div class="container text-center my-5">
+    <p class="text-highlight">We support public projects throughout Africa</p>
+    <h1 class="text-title">Public Sector Property Case Studies</h1>
+    <p class="text-description">As a dependable public sector service partner, we conduct our projects in a professional,
+      discrete and flexible manner. Find examples of our Public Sector Building Projects here.</p>
+  
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="case-study-box">
+          <img src="path/to/image1.jpg" alt="Property Image 1" class="img-fluid">
+          <div class="case-study-content">
+            <button class="btn btn-outline-warning btn-sm mb-2">Case Study</button>
+            <h3 class="case-title">Void Property Programme</h3>
+            <p>If your startup is selected, we will invite you to discuss a one-on-one interview to discuss your specific
+              needs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="case-study-box">
+          <img src="path/to/image2.jpg" alt="Property Image 2" class="img-fluid">
+          <div class="case-study-content">
+            <button class="btn btn-outline-warning btn-sm mb-2">Case Study</button>
+            <h3 class="case-title">Void Property Programme</h3>
+            <p>If your startup is selected, we will invite you to discuss a one-on-one interview to discuss your specific
+              needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container text-center my-5">
+    <h1 class="text-white">Projects & Investments</h1>
+    <p class="text-white">As a dependable public sector service partner, we conduct our projects in a professional,
+      discrete and flexible manner. Find examples of our Public Sector Building Projects here.</p>
+    <button class="btn btn-warning btn-lg my-4">Apply for Funding &rarr;</button>
+  
+    <div id="projectsCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="project-box">
+                <img src="path/to/image1.jpg" class="d-block w-100" alt="Kigali Innovation City">
+                <div class="project-content">
+                  <p class="location">Rwanda</p>
+                  <h3>Kigali Innovation City</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="project-box">
+                <img src="path/to/image2.jpg" class="d-block w-100" alt="Bendan Solar Plants">
+                <div class="project-content">
+                  <p class="location">Egypt</p>
+                  <h3>Bendan Solar Plants</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="project-box">
+                <img src="path/to/image3.jpg" class="d-block w-100" alt="Poa Internet">
+                <div class="project-content">
+                  <p class="location">Kenya</p>
+                  <h3>Poa Internet</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="project-box">
+                <img src="path/to/image4.jpg" class="d-block w-100" alt="Nachtigal Hydropower">
+                <div class="project-content">
+                  <p class="location">Cameroon</p>
+                  <h3>Nachtigal Hydropower</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more carousel items here as needed -->
+      </div>
+      <a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#projectsCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="container text-center my-5">
+    <h1 class="text-white">Frequently Asked Questions</h1>
+    <a href="#" class="text-highlight">Read all FAQ's</a>
+  
+    <div class="accordion mt-4" id="faqAccordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse"
+              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What services does a property management company provide? <span class="float-right">+</span>
+            </button>
+          </h2>
+        </div>
+  
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
+          <div class="card-body">
+            Property management companies provide various services including tenant screening, rent collection, property
+            maintenance, and handling tenant complaints.
+          </div>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              How does a property management company handle tenant complaints and issues? <span
+                class="float-right">+</span>
+            </button>
+          </h2>
+        </div>
+  
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+          <div class="card-body">
+            Property management companies handle tenant complaints by providing prompt responses, scheduling necessary
+            repairs, and mediating disputes.
+          </div>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse"
+              data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              What are the fees associated with property management services? <span class="float-right">+</span>
+            </button>
+          </h2>
+        </div>
+  
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+          <div class="card-body">
+            The fees for property management services typically include a monthly management fee, a leasing fee, and
+            occasionally a maintenance fee.
+          </div>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse"
+              data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              How are tenant evictions handled by property management companies? <span class="float-right">+</span>
+            </button>
+          </h2>
+        </div>
+  
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+          <div class="card-body">
+            Property management companies handle tenant evictions by following legal procedures, serving eviction notices,
+            and coordinating with law enforcement if necessary.
+          </div>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse"
+              data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              How are tenant evictions handled by property management companies? <span class="float-right">+</span>
+            </button>
+          </h2>
+        </div>
+  
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
+          <div class="card-body">
+            Property management companies handle tenant evictions by following legal procedures, serving eviction notices,
+            and coordinating with law enforcement if necessary.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="container text-center my-5">
+      <h1 class="text-white">Public Sector Property News</h1>
+      <p class="text-muted">Axis Public Sector clients include the NHS, the Metropolitan Police, the London Fire Brigade, as
+        well as plenty of local government authorities.</p>
+    
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <div class="card news-card">
+            <img src="images/card-image.png" class="card-img-top" alt="News Image 1">
+            <div class="card-body">
+              <p class="text-yellow">12.11.2024</p>
+              <h5 class="card-title text-white">What services does a property management company provide?</h5>
+              <p class="card-text text-muted">If your startup is selected, we will invite you to discuss a one-on-one
+                interview...</p>
+              <a href="#" class="text-white">Read more &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card news-card">
+            <img src="images/card-image.png" class="card-img-top" alt="News Image 2">
+            <div class="card-body">
+              <p class="text-yellow">12.11.2024</p>
+              <h5 class="card-title text-white">How are tenant evictions handled?</h5>
+              <p class="card-text text-muted">If your startup is selected, we will invite you to discuss a one-on-one
+                interview...</p>
+              <a href="#" class="text-white">Read more &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card news-card">
+            <img src="images/card-image.png" class="card-img-top" alt="News Image 3">
+            <div class="card-body">
+              <p class="text-yellow">12.11.2024</p>
+              <h5 class="card-title text-white">How does a property management company operate?</h5>
+              <p class="card-text text-muted">If your startup is selected, we will invite you to discuss a one-on-one
+                interview...</p>
+              <a href="#" class="text-white">Read more &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
         <!-- Bootstrap JS Bundle with Popper -->
         <script
@@ -92,6 +446,9 @@
           integrity="sha384-xxxxxxx"
           crossorigin="anonymous"
         ></script>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       </body>
     </html>
   </body>
