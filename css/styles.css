@@ -120,7 +120,8 @@ background: url('../images/hero-bg.png') no-repeat center center/cover;
   }
 
   .info-section h2 {
-      font-size: 2.5rem;
+      font-size:48px;
+      font-weight: 300;
       margin-bottom: 1rem;
   }
 
