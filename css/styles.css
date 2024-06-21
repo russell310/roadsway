@@ -137,13 +137,18 @@ background: url('../images/hero-bg.png') no-repeat center center/cover;
       border: none;
       border-radius: 10px;
       padding: 20px;
-      margin: 15px;
+      margin: 5px;
+      height: 280px;
+      overflow: hidden;
+      text-align: start;
+    border: 0.4px solid #606060;
+    background: linear-gradient(308.76deg, rgba(31, 31, 31, 0.41) 40.69%, rgba(133, 133, 133, 0.41) 115.5%);
   }
 
   .info-section .card h5 {
       margin-top: 1rem;
       margin-bottom: 0.5rem;
-      color: #FFD700;
+      /* color: #FFD700; */
   }
 
   .info-section .card p {
@@ -163,6 +168,11 @@ background: url('../images/hero-bg.png') no-repeat center center/cover;
       color: yellow;
   }
 
+.step-section h1 {
+    font-size: 80px !important;
+    font-weight: 300 !important;
+    margin-bottom: 20px;
+}
   .step-box {
       background-color: #333;
       color: white;
@@ -172,13 +182,13 @@ background: url('../images/hero-bg.png') no-repeat center center/cover;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
-  .step-box h2 {
+.step-box h2 {
       /* background-color: #000; */
       padding: 5px 10px;
       display: inline-block;
       border-radius: 5px;
       margin-bottom: 10px;
-  }
+}
 
   /* .step-box-active { */
       /* border: 2px solid #00f; */
